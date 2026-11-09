@@ -375,7 +375,7 @@ def index():
     return jsonify({
         "status": "online",
         "version": RELEASEVERSION,
-        "Channel": "t.me/RishantAPIs",
+        "Channel": "t.me/DevSamim",
         "endpoint": "/token?uid={uid}&password={password}",
     }), 200
 
